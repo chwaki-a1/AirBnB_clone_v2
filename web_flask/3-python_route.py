@@ -28,4 +28,4 @@ if __name__ == "__main__":
         """output some text  after /python/"""
         return "Python " + text.replace('_', ' ')
 
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port=5000)

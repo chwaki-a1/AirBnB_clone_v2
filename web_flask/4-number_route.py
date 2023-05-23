@@ -33,4 +33,4 @@ if __name__ == "__main__":
         """output some number after /number/"""
         return str(n) + " is a number"
 
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port=5000)
